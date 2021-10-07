@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+%\usepackage[margin=1in]{geometry}
+
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{bbm}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\newcommand{\lineline}{\rule{0.95\textwidth}{0.4pt}}
+\newcommand{\Lineline}{\rule{\textwidth}{1pt}}
+\newcommand{\boxbox}[2]{\fbox{\parbox{0.95\textwidth}{{\bf #1}#2}}}
+
+\newcommand{\supp}{\operatorname{supp}}
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{cor}{Corollary}[thm]
+\newtheorem{lemma}{Lemma}
+\newtheorem{defn}{Definition}
+\newtheorem{fact}{Fact}
+
+%%dark mode
+\usepackage{xcolor}
+\usepackage{pagecolor}
+%\pagecolor{black}
+%\color{white}
+
+
+\begin{document}
+
+\section{Chabauty space of $\text{PSL}_2(\mathbb{R})$}
+
+Let $G = \text{PSL}_2(\mathbb{R})$. The group $G$ acts on $\mathbb{H}^2$ by fractional linear transformation on upper half plane. An elemenatary subgroup of $G$ is a subgroup of $G$ that has a finite orbit in $\mathbb{H}^2 \cup \partial\mathbb{H}^2$.
+
+Let the set $A$ be a finite orbit of an elementary subgroup $H \leq G$. If $H$ contains an element that is parabolic or hyperbolic, then $A$ does not contain any element in $\mathbb{H}^2$. So in the case where $A$ is contained in $\mathbb{H}^2$, we know that $H$ can only have elliptic elements. The following fact is from Katok, where it is proved algebraically. 
+
+\begin{fact}
+	If $H$ contains only elliptic elements, then it has a fixed point in $\mathbb{H}^2$.
+\end{fact}
+
+
+
+
+
+\end{document}
