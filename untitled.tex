@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{journal}
 \usepackage[utf8]{inputenc}
 %\usepackage[margin=1in]{geometry}
 
@@ -23,6 +23,9 @@
 \newtheorem{defn}{Definition}
 \newtheorem{fact}{Fact}
 
+\bibliographystyle{alpha}
+\bibliography{ref}
+
 %%dark mode
 \usepackage{xcolor}
 \usepackage{pagecolor}
@@ -36,13 +39,20 @@
 
 Let $G = \text{PSL}_2(\mathbb{R})$. The group $G$ acts on $\mathbb{H}^2$ by fractional linear transformation on upper half plane. An elemenatary subgroup of $G$ is a subgroup of $G$ that has a finite orbit in $\mathbb{H}^2 \cup \partial\mathbb{H}^2$.
 
-Let the set $A$ be a finite orbit of an elementary subgroup $H \leq G$. If $H$ contains an element that is parabolic or hyperbolic, then $A$ does not contain any element in $\mathbb{H}^2$. So in the case where $A$ is contained in $\mathbb{H}^2$, we know that $H$ can only have elliptic elements. The following fact is from Katok, where it is proved algebraically. 
+Let the set $A$ be a finite orbit of an elementary subgroup $H \leq G$. 
+First we can think about where the set $A$ is and what element $H$ can have.
+If $H$ contains an element that is parabolic or hyperbolic, then $A$ cannot contain any element in $\mathbb{H}^2$. Otherwise the parabolic or hyperbolic isometry will create an infinite orbit. So in the case where $A$ is contained in $\mathbb{H}^2$, we know that $H$ can only have elliptic elements. The following fact is from [Katok], where it is proved algebraically. 
 
-\begin{fact}
+\begin{fact} 
 	If $H$ contains only elliptic elements, then it has a fixed point in $\mathbb{H}^2$.
 \end{fact}
 
+The fact above tells us that if elementary subgroup $H$ only has elliptical elements, then every element fixes the same point. In other words, all the elements are some rotation around that fixed point. 
 
+We want to argue that if $h \in H$ is parabolic or hyperbolic, then $h$ also creates an infinite orbit of any $\xi \in \partial \mathbb{H}^2$ that is not a fixed point of $h$. For example, in upper half plane model, if $h$ is the map $z \mapsto \lambda z$, it is a hyperbolic isometry leaving the imaginary axis invariant. Any other hyperbolic isometry is a conjugation of $h$. The map $h$ has two fixed points $0$ and $\infty$, for any nonzero $\xi$ on the real line, the orbit is $\{\lambda^n \xi:\ n\in \mathbb{Z}\}$. Similarly if $h$ is the map $z \mapsto z+1$, then $h$ fixes $\infty$, and any $\xi \in \mathbb{R}$ has infinite orbit $\{\xi + n:\ n\in \mathbb{Z}\}$ under $h$. Any other parabolic map is a conjugation to $h$. 
+
+Knowing how different types of isometry determines what elements $A$ can have, we can begin to classify all the closed elementary subgroup $H \leq G$. 
+The following result is from [BLL21]
 
 
 
