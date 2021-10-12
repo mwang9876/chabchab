@@ -43,7 +43,7 @@ Let the set $A$ be a finite orbit of an elementary subgroup $H \leq G$.
 First we can think about where the set $A$ is and what element $H$ can have.
 If $H$ contains an element that is parabolic or hyperbolic, then $A$ cannot contain any element in $\mathbb{H}^2$. Otherwise the parabolic or hyperbolic isometry will create an infinite orbit. So in the case where $A$ is contained in $\mathbb{H}^2$, we know that $H$ can only have elliptic elements. The following fact is from [Katok], where it is proved algebraically. 
 
-\begin{fact} 
+\begin{fact} \label{fact:1.1}
 	If $H$ contains only elliptic elements, then it has a fixed point in $\mathbb{H}^2$.
 \end{fact}
 
@@ -67,15 +67,28 @@ The following result is from [BLL21].
 \end{thm}
 
 \begin{proof}
-	We will give a proof that looks different from the one in [BLL21]. We consider what kind of isometries plays well with each other and can coexists in the same subgroup $H$ while still having finite orbit. Figure \ref{fig:1.1} summarizes the result.
+	We will give a proof that looks different from the one in [BLL21]. We consider what kind of isometries plays well with each other and can coexist in the same subgroup $H$ while still having finite orbit. Figure \ref{fig:1.1} summarizes the result.
 	\begin{figure}
 		\centering
-		\includegraphics[width = 0.7\textwidth]{IMG_0133.jpg}
+		\includegraphics[width = 0.75\textwidth]{IMG_0133.jpg}
 		\caption{Compatibility chart between isometries}
 		\label{fig:1.1}
 	\end{figure}
+
+	If $H$ only contains elliptic isometries, then by Fact \ref{fact:1.1} all the elements are rotations around the same point $p \in \mathbb{H}^2$. If $H$ contains two parabolic isometries, $H$ is elementary if and only if these two element fix the same point $\xi$ on the boundary. Otherwise one will generate an infinite orbit of the fix point of the other. Similarly, if $H$ contains two hyperbolic isometries, $H$ is elementary if and only if these two elements are both translation along the same geodesic $\alpha$. This paragraph covers cases $2-4$.
+
+	A parabolic isometry and an elliptic isometry cannot coexist in the same elementary subgroup. As we argued before, the finite orbit can only contain the fixed point $\xi$ of the parabolic isometry, but the elliptic element will map $\xi$ to some $\xi'$ that is not fixed by the parabolic isometry, and therefore makes it impossible to find a finite orbit for $H$. 
+
+	If $H$ contains both an elliptic isometry and an hyperbolic isometry, $H$ is elementary if and only if the elliptic permutes the two fixed points of the hyperbolic. In other word, the elliptic is a $\pi$-rotation around some $p \in \alpha$, where $\alpha$ is the geodesic the hyperbolic isometry translates along. This is case 5. If $H$ contains both a hyperbolic isometry and a parabolic isometry, the hyperbolic isometry must fix the fixed point of the parabolic. This is case 6.
 \end{proof}
 	
+Commonly asked question (by me):
 
+- the two semidirect products
 
+- why no notation for cyclic subgroup of $N(\xi)$.
+
+- why $B(\xi) \cong N(\xi) \rtimes A(\alpha)$ can be defined using just one $\alpha$.
+
+To do: maybe reorganize the structure of these two pages. but for now i need to move on to new stuff. 
 \end{document}
