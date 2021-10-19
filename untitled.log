@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.6)  16 OCT 2021 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.6)  19 OCT 2021 19:29
 entering extended mode
 **C:/Users/Mujie/Documents/GitHub/chabchab/untitled.tex
 (C:/Users/Mujie/Documents/GitHub/chabchab/untitled.tex
@@ -265,31 +265,34 @@ File: IMG_0133.jpg Graphic file (type jpg)
 <use IMG_0133.jpg>
 Package pdftex.def Info: IMG_0133.jpg  used on input line 73.
 (pdftex.def)             Requested size: 258.75pt x 149.59796pt.
- [2 <./IMG_0133.jpg>] [3] [4] (untitled.aux) ) 
+ [2 <./IMG_0133.jpg>] [3] [4] [5] (untitled.aux) ) 
 Here is how much of TeX's memory you used:
- 3455 strings out of 478927
- 47981 string characters out of 2852535
- 355012 words of memory out of 3000000
- 21273 multiletter control sequences out of 15000+600000
+ 3456 strings out of 478927
+ 47991 string characters out of 2852535
+ 355020 words of memory out of 3000000
+ 21274 multiletter control sequences out of 15000+600000
  407945 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,66p,840b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/Mujie/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mujie/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Mujie
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Us
-ers/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Mujie/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Mujie/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on untitled.pdf (4 pages, 653047 bytes).
+ 57i,9n,66p,840b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/Mujie/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Mujie/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/M
+ujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi5.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi7.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mujie/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Mujie/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mujie/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Mujie/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Use
+rs/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm
+10.pfb>
+Output written on untitled.pdf (5 pages, 677333 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
