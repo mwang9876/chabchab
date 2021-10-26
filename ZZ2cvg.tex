@@ -1,0 +1,117 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{lpic}
+\usepackage{amsthm}
+\usepackage{float}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage[top=1in, bottom=1in, left=1.5in, right=1.5in]{geometry}
+\usepackage{etoolbox}
+\patchcmd{\quote}{\rightmargin}{\leftmargin 2em \rightmargin}{}{}
+\allowdisplaybreaks
+
+\usepackage{hyperref}
+\hypersetup{pdfauthor={},pdftitle={determining the subgraphs of the curve graph},colorlinks=true,linkcolor=black,citecolor=black}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem*{theorem*}{Theorem}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{question}{Question}
+
+
+
+
+
+
+%this has equations numbered within sections 1.1,1.2, ... 2.1,...
+\numberwithin{equation}{section}
+
+
+%-------------------------------------------
+%       Begin Local Macros
+%-------------------------------------------
+
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bH}{\mathbb{H}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bQ}{\mathbb{Q}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bT}{\mathbb{T}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\cC}{\mathcal{C}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\PSL}{\mathrm{PSL}}
+\newcommand{\Mod}{\mathrm{Mod}}        
+
+%-------------------------------------------
+%       End Local Macros
+%-------------------------------------------
+
+\linespread{1.1}
+
+\title{Why can't I make the title look nice}
+\author{Mujie Wang}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+	Future me will put some abstract here
+\end{abstract}
+
+\section{Introduction}
+
+\section{Annex of necessary backgrounds}
+
+\section{Two examples in $\PSL_2(\bR)$ (that will help us later)}
+
+\section{The plot thickens}
+
+
+Jorgenson first discovered the following interesting phenomenon.
+
+\begin{fact} \label{fact:2.1}
+	There exists a sequence of infinite cyclic groups $\langle H_n \rangle$, where $H_n$ is an isometry of hyperbolic type, such that the sequence converges to a subgroup isomorphic to $\mathbb{Z}^2$, whose generators are both parabolic isometries.
+\end{fact}
+
+In this section, we will construct one such sequence explicitly. We will use the upper half-plane model $\bC \times \bR^+$ for $\bH^3$. The isometry group $\cI^+(\bH^3) \cong \PSL_2(\bC)$ acts on the boundary $\overline\bC$ by fractional linear transformation. 
+
+
+
+\bigskip
+
+\bibliographystyle{alpha}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{OeSHP14}
+
+\bibitem[PH]{PH}
+Author names.
+\newblock Article Titles.
+\newblock {\em Journal Title},
+  ??? some mysterious numbers.
+
+
+\end{thebibliography}
+
+
+
+
+
+
+
+
+\end{document}
