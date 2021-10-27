@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.6)  26 OCT 2021 18:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.6)  27 OCT 2021 18:18
 entering extended mode
 **C:/Users/Mujie/Documents/GitHub/chabchab/ZZ2cvg.tex
 (C:/Users/Mujie/Documents/GitHub/chabchab/ZZ2cvg.tex
@@ -531,32 +531,20 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 71.
 (C:\Users\Mujie\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 80.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 80.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 80.
-
 [1
 
 {C:/Users/Mujie/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (ZZ2cvg.aux)
 Package rerunfilecheck Info: File `ZZ2cvg.out' has not changed.
-(rerunfilecheck)             Checksum: 75DA16D3947F859EE2ECB84B81FA788F;763.
+(rerunfilecheck)             Checksum: 6D2DBC59EEDBE6F7CC5B1EE208711539;1047.
  ) 
 Here is how much of TeX's memory you used:
- 10906 strings out of 478927
- 160565 string characters out of 2852535
- 479453 words of memory out of 3000000
- 28592 multiletter control sequences out of 15000+600000
- 413186 words of font info for 65 fonts, out of 8000000 for 9000
+ 10905 strings out of 478927
+ 160526 string characters out of 2852535
+ 479454 words of memory out of 3000000
+ 28589 multiletter control sequences out of 15000+600000
+ 411939 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,66p,406b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,8n,66p,364b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -572,9 +560,9 @@ pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmti10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb>
-Output written on ZZ2cvg.pdf (1 page, 154234 bytes).
+Output written on ZZ2cvg.pdf (1 page, 154597 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
