@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\newcommand{\lineline}{\rule{0.95\textwidth}{0.4pt}}
+\newcommand{\Lineline}{\rule{\textwidth}{1pt}}
+\newcommand{\boxbox}[2]{\fbox{\parbox{0.95\textwidth}{{\bf #1}#2}}}
+
+%%dark mode
+\usepackage{xcolor}
+\usepackage{pagecolor}
+%\pagecolor{black}
+% \color{white}
+
+
+\begin{document}
+{\bf Space of Projectivised $\mathbb{Z}^2$ Lattices in $\mathbb{C}$}\\
+\Lineline \vskip 5pt
+
+A $\mathbb{Z}^2$-lattice in $\mathbb{C}$ is a closed subgroup in $\mathbb{C}$ that is isomorphic to $\mathbb{Z}^2$. 
+We are investigating the shape of the space $L$ of such lattices with Chabauty topology. The object is not hard to understand --- it is just lattices in $\mathbb{R}^2$, even my Calculus 1 students can draw a lattice in $\mathbb{R}^2$. What makes this problem hard is that there are so many ways to build up the same $\mathbb{Z}^2$: think about $\langle (1,0), (0,1) \rangle \cong \langle (1,0), (1,1)\rangle$. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width = 0.75\textwidth]{clueless.png}
+	\caption{My first impression on this problem}
+\end{figure}
+
+Our first quest is to uniquely find two small equivalence classes of vectors such that we can choose one vector from each class and reconstruct the lattice. Since the lattice is a discrete subgroup of $\mathbb{C}$, we can plant a unit circle at the origin and make it grow. At some point, it will start to hit points in the lattice, the first 2/4/6 points it hits are our first equivalence class of vectors. Figure \ref{1} step 2 shows the 2-point case. If the circle hits 4 or 6 points, we stop looking for more vectors. If not, we continue. Then we delete all the vectors spanned by the first equivalence class, as shown in step 3. Finally, we let the circle grow again until it hits 2 or 4 more points. This is our second equivalence class. The 2-point case is shown in step 4.
+
+\begin{figure}
+	\centering
+	\includegraphics[width = 0.75\textwidth]{twovectors.png}
+	\caption{Procedure to find the equivalence classes}
+	\label{1}
+\end{figure}
+
+With this procedure, a projectivised $\mathbb{Z}^2$-lattice is a lattice such that the vectors in the first equivalence class have length 1. 
+We call the space of projectivised $\mathbb{Z}^2$-lattices $PL$. Interested readers can think for a minute before bed, on your way home from work (if you are not driving), or during lunch about why $L$ is homeomorphic to the suspension of $PL$. 
+
+\end{document}
