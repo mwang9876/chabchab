@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.6)  9 DEC 2021 20:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.6)  13 DEC 2021 18:27
 entering extended mode
 **"C:/Users/Mujie/Documents/GitHub/chabchab/New folder/R2lattice.tex"
 (C:/Users/Mujie/Documents/GitHub/chabchab/New folder/R2lattice.tex
@@ -234,29 +234,34 @@ File: twovectors.png Graphic file (type png)
 <use twovectors.png>
 Package pdftex.def Info: twovectors.png  used on input line 39.
 (pdftex.def)             Requested size: 258.75pt x 194.99123pt.
+<4cases.png, id=4, 722.7pt x 594.22pt>
+File: 4cases.png Graphic file (type png)
+<use 4cases.png>
+Package pdftex.def Info: 4cases.png  used on input line 51.
+(pdftex.def)             Requested size: 258.75pt x 212.74939pt.
 
 [1{C:/Users/Mujie/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
- <./clueless.png>] [2 <./twovectors.png>] (R2lattice.aux) ) 
+ <./clueless.png>] [2 <./twovectors.png> <./4cases.png>] (R2lattice.aux) ) 
 Here is how much of TeX's memory you used:
- 2977 strings out of 478927
- 43209 string characters out of 2852535
- 348536 words of memory out of 3000000
- 20807 multiletter control sequences out of 15000+600000
+ 2985 strings out of 478927
+ 43313 string characters out of 2852535
+ 349544 words of memory out of 3000000
+ 20814 multiletter control sequences out of 15000+600000
  405437 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,8n,66p,869b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/Mujie/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/M
-ujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
-:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr7.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/symbols/msbm10.pfb>
-Output written on R2lattice.pdf (2 pages, 230599 bytes).
+<C:/U
+sers/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr7.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on R2lattice.pdf (2 pages, 308596 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
